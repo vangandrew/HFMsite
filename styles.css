@@ -460,8 +460,12 @@ body {
     }
 
     .about h1 {
-      font-size: 32px;
+      font-size: 45px;
       margin-top: 192px;
+    }
+
+    .about p1 {
+      font-size: 22px;
     }
   }
 
@@ -471,7 +475,7 @@ body {
     }
 
     .about h1 {
-      font-size: 19.2px;
+      font-size: 32px;
     }
 
     .about__card {
@@ -541,10 +545,12 @@ body {
   }
 
   .goal p {
+    column-count: 2;
+    column-gap: 20px;
     margin-top: 650px;
     color: #fff;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     width: 95vw;
   }
 
@@ -556,6 +562,11 @@ body {
     .goal h3 {
       font-size: 32px;
       margin-top: 192px;
+    }
+
+    .goal p {
+      column-count: 2;
+      column-gap: 20px;
     }
   }
 
@@ -570,6 +581,11 @@ body {
 
     .goal__card {
       width: 300px;
+    }
+
+    .goal p {
+      column-count: 2;
+      column-gap: 20px;
     }
   }
 
